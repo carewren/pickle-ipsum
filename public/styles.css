@@ -1,0 +1,40 @@
+
+/* COLORS
+navy: 2E3C69
+purple: A65BC1
+pink: FA9ABB
+orange: E56F09
+green: 329135
+lime: 72C90F
+lemon: E7EF0E
+aqua: 9DE0D5
+fog: E4F1EA
+charcoal: 303032 */
+
+
+
+body {
+    margin-top: 100px;
+    background-color: #E4F1EA;
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #303032;
+    font-size: 20px;
+
+}
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #329135;
+
+}
+
+div {
+    padding: 0px;
+  }
+
+#title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

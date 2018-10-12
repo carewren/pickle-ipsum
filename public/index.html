@@ -1,14 +1,12 @@
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Ubuntu:400,700" rel="stylesheet">
   <link href="styles.css" rel="stylesheet" text="text/css" />
-
 </head>
 <body>
 
     <div id="title-div">
-        <h1 class="title">I'm Pickle Ipsum</h1>
-        <img src="pickle-rick.png" alt="pickle riiiick" height="60" />
+        <h1 class="title" style="text-align:center;">I'm Pickle Ipsum</h1>
     </div>
 
     <div>
@@ -16,17 +14,23 @@
     </div>
 
     <form action="/" method="POST">
-      <input type="number" class="paragraph-number" name="numberOfParagraphs">
-      <input type="submit" value="Generate" class="generate-button">
+      <input type="number" class="paragraph-number" name="numberOfParagraphs" placeholder="Enter # of paragraphs">
+      <input type="submit" value="get schwifty" class="generate-button" id="generate-img">
     </form>
 
-    <div>
-        <img id="randomRick" src="" alt="" />
-    </div>
+    <!-- <div> -->
+        <!-- <img class="randomRick" src="" alt="" /> -->
+        <!-- <img id="randomRick" src="img/rick04.jpeg" alt="" height="100" /> -->
+    <!-- </div> -->
 
     <div class="generated-text">
-      <div class='placeholder-div'></div>
+        <!-- <img class="rick" id="randomRick" src="img/rick04.jpeg" alt="" /> -->
+        <script type="text/javascript">
+            document.write("<img class='rick' src=/img/rick" + Math.floor( 1 + Math.random() * 24 ) + ".jpg>")
+        </script>
+        <div class='placeholder-div'></div>
     </div>
+    <script src="randomRick.js"></script>
 
 </body>
 </html>

@@ -11,30 +11,86 @@ aqua: 9DE0D5
 fog: E4F1EA
 charcoal: 303032 */
 
-
+html {
+    cursor: url('teeny-pickle.png'), auto;
+}
 
 body {
-    margin-top: 100px;
+    margin: 50px;
     background-color: #E4F1EA;
-
     font-family: 'Ubuntu', sans-serif;
     color: #303032;
-    font-size: 20px;
-
+    font-size: 18px;
 }
-
-h1 {
-    font-family: 'Bowlby One SC', cursive;
-    color: #329135;
-
-}
-
-div {
-    padding: 0px;
-  }
 
 #title-div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #329135;
+}
+
+p.description {
+    font-weight: bold;
+    color: #2E3C69;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-number {
+    width: 25%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.generate-button {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FA9ABB;
+    color: #2E3C69;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 15px;
+}
+
+.rick {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.generated-text {
+    margin: 25px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #A65BC1;
+    border-radius: 10px;
+
+    color: #303032;
+  }
+

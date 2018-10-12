@@ -17,6 +17,9 @@ npm install
 node app.js
 ```
 
-3. Open http://localhost:3000. [Get schwifty](https://www.youtube.com/watch?v=4ctK1aoWuqY).*
+3. Open http://localhost:3000.
+4. [Get schwifty](https://www.youtube.com/watch?v=4ctK1aoWuqY).*
+
+
 
 \*Rick and Morty write a song with Ice-T to save the world
